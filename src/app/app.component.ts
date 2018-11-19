@@ -10,4 +10,8 @@ export class AppComponent {
   propertyBindingButton: string = "button";
   interpolationData: string = "string interpolation";
   clspan: number = 2;
+  isChange: boolean = false;
+  onClick() {
+    this.isChange = !this.isChange;
+  }
 }
