@@ -17,3 +17,14 @@
     <td attr.colspan="{{clspan}}">hello world</td>
   </tr>
 </table>
+
+<!-- style binding -->
+
+<input type="text" [style.borderStyle]="'dashed'" />
+<p
+  [ngStyle]="{
+  'background-color' : 'red'
+}"
+>
+  my name is alok
+</p>
