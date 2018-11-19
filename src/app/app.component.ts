@@ -14,4 +14,5 @@ export class AppComponent {
   onClick() {
     this.isChange = !this.isChange;
   }
+  twoWay: string;
 }
