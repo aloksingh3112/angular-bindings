@@ -8,4 +8,5 @@ import { Component } from "@angular/core";
 export class AppComponent {
   propertyBindingData: string = "my name is avinash";
   propertyBindingButton: string = "button";
+  interpolationData: string = "string interpolation";
 }
