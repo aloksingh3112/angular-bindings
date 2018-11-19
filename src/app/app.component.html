@@ -8,3 +8,12 @@
 
 <h1>{{ interpolationData }}</h1>
 <input type="text" placeholder="{{interpolationData}}" />
+
+<!-- attribute binding -->
+<table>
+  <tr>
+    <td [attr.colspan]="clspan">hello world</td>
+    <td bind-attr.colspan="clspan">hello world</td>
+    <td attr.colspan="{{clspan}}">hello world</td>
+  </tr>
+</table>
